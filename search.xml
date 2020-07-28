@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>从零开始学SpringBoot(持续更新)</title>
-      <link href="/2020/05/08/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6SpringBoot(%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/"/>
-      <url>/2020/05/08/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6SpringBoot(%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="（一）SpringBoot概念理解篇"><a href="#（一）SpringBoot概念理解篇" class="headerlink" title="（一）SpringBoot概念理解篇"></a>（一）SpringBoot概念理解篇</h2><div class="note info">            <p>我们经常会听到几个概念，Spring，SpringMvc，SpringBoot，SpringCloud，那么他们之间到底是什么样的关系呢？</p>          </div><h3 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h3><ul><li><p><strong>Spring</strong></p><p>Spring是一个轻量级的控制反转(IoC)和面向切面(AOP)的容器框架。Spring使你能够编写更干净、更可管理、并且更易于测试的代码。</p></li><li><p><strong>SpringMvc</strong></p><p>SpringMVC是Spring的一个模块，一个web框架。通过Dispatcher Servlet, ModelAndView 和 View Resolver，开发web应用变得很容易。主要针对的是网站应用程序或者服务开发——URL路由、Session、模板引擎、静态Web资源等等。</p></li><li><p><strong>SpringBoot</strong></p><p>Spring配置复杂，繁琐，所以推出了Spring boot，约定优于配置，简化了spring的配置流程。</p></li><li><p><strong>SpringCloud</strong></p><p>Spring Cloud构建于Spring Boot之上，是一个关注全局的服务治理框架。</p></li></ul><h3 id="区别和联系"><a href="#区别和联系" class="headerlink" title="区别和联系"></a>区别和联系</h3><ul><li><p><strong>Spring VS SpringMVC</strong></p><p>Spring是一个一站式的轻量级的java开发框架，核心是控制反转（IOC）和面向切面（AOP），针对于开发的WEB层(springMvc)、业务层(Ioc)、持久层(jdbcTemplate)等都提供了多种配置解决方案；</p><p>SpringMVC是Spring基础之上的一个MVC框架，主要处理web开发的路径映射和视图渲染，属于Spring框架中WEB层开发的一部分；</p></li><li><p><strong>SpringMVC VS SpringBoot</strong></p><p>SpringMVC属于一个企业WEB开发的MVC框架，涵盖面包括前端视图开发、文件配置、后台接口逻辑开发等，XML、config等配置相对比较繁琐复杂；</p><p>SpringBoot框架相对于SpringMVC框架来说，更专注于开发微服务后台接口，不开发前端视图；</p></li><li><p><strong>SpringBoot和SpringCloud</strong></p><p>SpringBoot使用了默认大于配置的理念，集成了快速开发的Spring多个插件，同时自动过滤不需要配置的多余的插件，简化了项目的开发配置流程，一定程度上取消xml配置，是一套快速配置开发的脚手架，能快速开发单个微服务；</p><p>SpringCloud大部分的功能插件都是基于SpringBoot去实现的，SpringCloud关注于全局的微服务整合和管理，将多个SpringBoot单体微服务进行整合以及管理；SpringCloud依赖于SpringBoot开发，而SpringBoot可以独立开发；</p></li><li><p><strong>SpringBoot原理</strong></p><p>1.能够帮助开发者实现快速整合第三方框架 （原理：Maven依赖封装）</p><p>2.去除xml配置 完全采用注解化 （原理：Spring体系中内置注解方式）</p><p>3.无需外部Tomcat、内部实现服务器（原理：Java语言支持创建Tomcat服务器）</p><div class="note warning">            <p>SpringBoot对系统要求：</p><p><span style = 'color:red'> Java1.8及以上，Spring Framework 5.0及以上</span></p>          </div></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul><li>Spring是核心，提供了基础功能；</li><li>Spring MVC 是基于Spring的一个 MVC 框架 ；</li><li>Spring Boot 是为简化Spring配置的快速开发整合包；</li><li>Spring Cloud是构建在Spring Boot之上的服务治理框架。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> SpringBoot </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java </tag>
-            
-            <tag> SpringBoot </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Windows安装小米开源数据库优化工具soar</title>
       <link href="/2020/04/04/Windows%E5%AE%89%E8%A3%85%E5%B0%8F%E7%B1%B3%E5%BC%80%E6%BA%90%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96%E5%B7%A5%E5%85%B7soar/"/>
       <url>/2020/04/04/Windows%E5%AE%89%E8%A3%85%E5%B0%8F%E7%B1%B3%E5%BC%80%E6%BA%90%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96%E5%B7%A5%E5%85%B7soar/</url>
