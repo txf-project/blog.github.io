@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Typora+PicGo+Gitee打造高效笔记</title>
+      <link href="/2020/11/26/Typora+PicGo+Gitee%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E7%AC%94%E8%AE%B0/"/>
+      <url>/2020/11/26/Typora+PicGo+Gitee%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>之前一直在使用Typora写笔记，在本地使用还好，如果放到博客上就会涉及图片访问问题，之前用腾讯云作为图床，到期之后没有进行续费。就在前一段时间Typora新版本更新后，总算是拥有了一套我认为很完（bai）美的笔记方案：使用Typora编写markdown笔记，使用Gitee作为图床，并使用Typora新版本整合的PicGo软件实现图片自动上传。</p><h2 id="一、工具"><a href="#一、工具" class="headerlink" title="一、工具"></a>一、工具</h2><p><strong>Markdown</strong>是一门易于上手能帮助作者专心写作的文档编辑语言，它的好处太多了，建议想自己动手做笔记写博客的朋友都可以学一学，10分钟上手，从此不用在为排版烦恼。</p><p><a href="https://www.typora.io/">Typora</a>是一款优雅的markdown编辑器，所见即所得的编辑方式让我爱不释手，也推荐给大家。</p><p><a href="https://gitee.com/">Gitee</a>是国内版的Github，功能跟Github基本一样，主要是在国内访问非常快，作为图床和笔记文件存放仓库非常合适。</p><p><a href="https://github.com/Molunerfinn/PicGo/releases">PicGo</a>实现自动上传图片并返回markdown格式的图片url，这是自动上传的，也就是在Typora中插入图片就自动帮你上传替换图片的url，对于我们用户是透明的，十分舒服。</p><h2 id="二、安装步骤"><a href="#二、安装步骤" class="headerlink" title="二、安装步骤"></a>二、安装步骤</h2><p>需要注册Gitee账户跟Github一样，就不具体描述了，并创建存放笔记的仓库，比如notebook。</p><h3 id="1）安装和配置Typora"><a href="#1）安装和配置Typora" class="headerlink" title="1）安装和配置Typora"></a>1）安装和配置Typora</h3><ol><li>到<a href="https://www.typora.io/">官网</a>下载安装即可。</li><li>配置图片自动上传：<ol><li>偏好设置-&gt;图像-&gt;插入图片时：选择上传图片。</li><li>偏好设置-&gt;图像-&gt;上传服务：选择PicGo.app。</li></ol></li><li>使用git将在Gitee上创建的存放笔记的仓库git clone到本地，使用Typora打开目录，之后就可以新增自己的*.md笔记文件，最后使用git add、commit、push上传到Gitee上保存。</li></ol><h3 id="2）在Gitee上创建图床仓库"><a href="#2）在Gitee上创建图床仓库" class="headerlink" title="2）在Gitee上创建图床仓库"></a>2）在Gitee上创建图床仓库</h3><ol><li><p>在Gitee上创建存放图片的仓库，比如blogImage。</p></li><li><p>在该项目下创建一个文件夹叫imgs。</p></li><li><p>在网页上点击头像-&gt;设置-&gt;私人令牌-&gt;生成新令牌（将生成的令牌保存下来）。</p><h3 id="3）安装PicGo"><a href="#3）安装PicGo" class="headerlink" title="3）安装PicGo"></a>3）安装PicGo</h3></li><li><p>到github地址<a href="https://github.com/Molunerfinn/PicGo/releases%E4%B8%8B%E8%BD%BDPicGo%E8%BD%AF%E4%BB%B6%E5%B9%B6%E5%AE%89%E8%A3%85%E3%80%82">https://github.com/Molunerfinn/PicGo/releases下载PicGo软件并安装。</a></p></li><li><p>打开PicGo主界面，在插件设置中搜索gitee，安装gitee。安装完之后完成对应配置：</p><p>首先复制Gitee上的图床仓库url，例如：<a href="https://gitee.com/txf-project/blogImage">https://gitee.com/txf-project/blogImage</a></p><ol><li>url：<a href="https://gitee.com/">https://gitee.com</a></li><li>ower：填gitee的用户名（对应图床仓库url中的txf-project）</li><li>repo：图床仓库名（对应图床仓库url中的blogImage）</li><li>path：imgs</li><li>token：填入在2中生成的新令牌字符串。</li></ol></li><li><p>将默认图床设置为Gitee图床。</p></li></ol><h2 id="三、测试"><a href="#三、测试" class="headerlink" title="三、测试"></a>三、测试</h2><p>在Typora中新建md文件，并插入图片，看图片url是否会自动变成gitee的url。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高效笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 高效笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Musql常见知识点总结</title>
       <link href="/2020/05/25/Mysql%E6%80%BB%E7%BB%93/"/>
       <url>/2020/05/25/Mysql%E6%80%BB%E7%BB%93/</url>
